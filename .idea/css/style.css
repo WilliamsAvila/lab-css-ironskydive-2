@@ -67,7 +67,7 @@ h5{
 }
 
 .dar-background {
-    background-color: DarkBlue;
+    background-color: #0b0b37;
     color: white;
 }
 .text{
@@ -113,4 +113,18 @@ h5{
 .footer{
     text-align: center;
     font-size: 1.9em;
+    &
+    ul{
+        list-style-type: none;
+    }
+}
+
+.adress{
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a{
+    color: blue;
+    text-decoration: none;
 }
